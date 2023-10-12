@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "League Spartan", sans-serif;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 20px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header h4 {
+  padding: 0 9px;
+}
+
+/* ? HEADER EMD */
+
+#work {
+  padding: 70px 0;
+}
+
+.work {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-text h2 {
+  width: 506px;
+  height: 105px;
+  color: var(--Dark-Color, #21243d);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.work-text p {
+  width: 497px;
+  height: 66px;
+  flex-shrink: 0;
+  color: var(--Dark-Color, #21243d);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 50px 0;
+  line-height: 24px;
+}
+
+.work-text button {
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  background: var(--Primary, #ff6464);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* ! WORK END */
+
+#recent {
+  padding: 100px 0;
+  background: #edf7fa;
+}
+.recent-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recent-text h5 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 22px;
+  font-weight: 400;
+}
+.recent-text h6 {
+  color: var(--Secondry, #00a8cc);
+  font-size: 16px;
+  font-weight: 400;
+}
+.recent-block {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ben {
+  width: 418px;
+  height: 295px;
+  padding: 40px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+}
+
+.ben h3 {
+  width: 374px;
+  color: var(--Dark-Color, #21243d);
+  font-size: 26px;
+  font-weight: 700;
+  padding: 0 0 30px 0;
+  line-height: 40px;
+}
+
+.ben p {
+  width: 374px;
+  color: var(--Dark-Color, #21243d);
+  font-size: 18px;
+  font-weight: 400;
+}
+.ben span {
+  padding: 0 10px;
+}
+.ben h6 {
+  width: 368px;
+  color: var(--Dark-Color, #21243d);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 30px 0;
+  line-height: 30px;
+}
+
+/* ? RECENT END */
+.about h2 {
+  padding: 15px 0 22px 0;
+  color: var(--Dark-Color, #21243d);
+  font-size: 22px;
+  font-weight: 400;
+}
+.b-box {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.b-box div {
+  margin: 0 10px;
+}
+.b-box h2 {
+  color: var(--Dark-Color, #21243d);
+  font-size: 30px;
+  font-weight: 700;
+}
+.b-box span {
+  margin-right: 20px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 16px;
+  background: #142850;
+}
+.b-box input {
+  width: 374px;
+  height: 34px;
+  border: none;
+}
+.b-box input::placeholder {
+  color: var(--Light, #8695a4);
+  font-size: 20px;
+  font-weight: 400;
+}
+.b-box div p {
+  width: 594px;
+  color: var(--Dark-Color, #21243d);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+/* ? ? ? */
+
+#footer {
+  padding: 60px 0;
+  border: solid 1px grey;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-icons ion-icon {
+  line-height: 50px;
+  padding: 0 5px;
+}
+
+.footer p {
+  color: var(--Dark, #21243d);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 20px 0;
+}
